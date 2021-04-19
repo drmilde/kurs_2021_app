@@ -39,12 +39,16 @@ class KursScreen extends StatelessWidget {
         },
         child: Container(
           //width: 200,
-          color: Colors.green,
-          child: Text(
-            text,
-            style: TextStyle(
-              fontSize: 18,
-              fontWeight: FontWeight.bold,
+          color: Colors.blue,
+          child: Padding(
+            padding: const EdgeInsets.all(8.0),
+            child: Text(
+              text,
+              style: TextStyle(
+                fontSize: 18,
+                color: Colors.white,
+                fontWeight: FontWeight.bold,
+              ),
             ),
           ),
         ),

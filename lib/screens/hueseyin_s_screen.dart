@@ -7,6 +7,16 @@ class hueseyin_s_screen extends StatelessWidget {
       appBar: AppBar(
         title: Text("Hüseyin Sevim"),
       ),
+      body: Column(
+        children: [
+          Text("Hüseyin Sevim",
+            style: TextStyle(
+              fontSize: 18,
+            ),
+          ),
+          Text("Digitale Medien")
+        ],
+      ),
     );
   }
 }

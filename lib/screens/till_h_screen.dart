@@ -9,13 +9,23 @@ class TillHScreen extends StatelessWidget {
         title: Text("Till Henkel"),
       ),
       body: Column(
+        crossAxisAlignment: CrossAxisAlignment.start,
         children: [
           Text(
                 "Till Henkel",
                 style: GoogleFonts.goblinOne(
                 fontSize: 18,
-    ),
-    )
+            ),
+          ),
+          SizedBox(
+            height: 20,
+          ),
+          Text(
+            "Alter: 23",
+                style: GoogleFonts.goblinOne(
+                  fontSize: 18,
+                ),
+                ),
       ],
 
 

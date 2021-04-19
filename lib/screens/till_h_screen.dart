@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:google_fonts/google_fonts.dart';
 
 class TillHScreen extends StatelessWidget {
   @override
@@ -6,8 +7,19 @@ class TillHScreen extends StatelessWidget {
     return Scaffold(
       appBar: AppBar(
         title: Text("Till Henkel"),
-
       ),
+      body: Column(
+        children: [
+          Text(
+                "Till Henkel",
+                style: GoogleFonts.goblinOne(
+                fontSize: 18,
+    ),
+    )
+      ],
+
+
+    ),
     );
 
   }

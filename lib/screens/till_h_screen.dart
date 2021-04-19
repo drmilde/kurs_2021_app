@@ -11,26 +11,64 @@ class TillHScreen extends StatelessWidget {
       body: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
+          Image.asset("assets/images/pika.jpg"),
+
           Text(
-                "Till Henkel",
-                style: GoogleFonts.goblinOne(
-                fontSize: 18,
+            "Vorname: Till",
+            style: GoogleFonts.sulphurPoint(
+              fontSize: 18,
             ),
           ),
           SizedBox(
-            height: 20,
+            height: 10,
+          ),
+          Text(
+            "Nachname: Henkel",
+            style: GoogleFonts.sulphurPoint(
+              fontSize: 18,
+            ),
+          ),
+          SizedBox(
+            height: 10,
           ),
           Text(
             "Alter: 23",
-                style: GoogleFonts.goblinOne(
-                  fontSize: 18,
-                ),
-                ),
-      ],
-
-
-    ),
+            style: GoogleFonts.sulphurPoint(
+              fontSize: 18,
+            ),
+          ),
+          SizedBox(
+            height: 10,
+          ),
+          Text(
+            "Geburtsdatum: 15.09.1997",
+            style: GoogleFonts.sulphurPoint(
+              fontSize: 18,
+            ),
+          ),
+          SizedBox(
+            height: 10,
+          ),
+          Text(
+            "Fachbereich: Angewandte Informatik",
+            style: GoogleFonts.sulphurPoint(
+              fontSize: 18,
+            ),
+          ),
+          SizedBox(
+            height: 10,
+          ),
+          Text(
+            "Studiengang: Digitale Medien",
+            style: GoogleFonts.sulphurPoint(
+              fontSize: 18,
+            ),
+          ),
+          SizedBox(
+            height: 10,
+          ),
+        ],
+      ),
     );
-
   }
 }

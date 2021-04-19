@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
 
-class hueseyin_s_screen extends StatelessWidget {
+class HueseyinSScreen extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -11,6 +11,7 @@ class hueseyin_s_screen extends StatelessWidget {
       body: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
+          Image.asset("assets/images/sus.jpg"),
           Text("Name: Sevim",
             style: GoogleFonts.ubuntuMono(
               fontSize: 18,

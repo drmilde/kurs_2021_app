@@ -11,6 +11,7 @@ class HueseyinSScreen extends StatelessWidget {
       body: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
+          Image.asset("assets/images/sus.jpg"),
           Text("Name: Sevim",
             style: GoogleFonts.ubuntuMono(
               fontSize: 18,

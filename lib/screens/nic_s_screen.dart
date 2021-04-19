@@ -18,6 +18,7 @@ class NicSScreen extends StatelessWidget {
               style: GoogleFonts.poppins(
                   textStyle: TextStyle(
                 fontSize: 16,
+                color: Colors.teal,
               ))),
           Text("Alter: 21",
               style: GoogleFonts.poppins(

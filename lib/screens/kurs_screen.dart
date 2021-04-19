@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:kurs_2021_app/screens/hueseyin_s_screen.dart';
 import 'package:kurs_2021_app/screens/jan_torsten_m_screen.dart';
-import 'package:kurs_2021_app/screens/nic_s_screen.dart';
+import 'package:kurs_2021_app/screens/till_h_screen.dart';
 import 'package:kurs_2021_app/screens/unbekannt_screen.dart';
 
 class KursScreen extends StatelessWidget {
@@ -18,7 +18,7 @@ class KursScreen extends StatelessWidget {
               JanTorstenMScreen()),
           zeileKursteilnehmer("Unbekannt", context, UnbekanntScreen()),
           zeileKursteilnehmer("Hüseyin", context, hueseyin_s_screen()),
-          zeileKursteilnehmer("Nic Schittenhelm", context, NicSScreen()),
+          zeileKursteilnehmer("Till Henkel", context, TillHScreen()),
         ],
       ),
     );

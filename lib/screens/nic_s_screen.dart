@@ -14,13 +14,13 @@ class NicSScreen extends StatelessWidget {
           SizedBox(
             height: 20,
           ),
+          Image.asset("assets/images/pb.jpg", width: 64),
           Text("Name: Nic Schittenhelm",
               style: GoogleFonts.poppins(
                   textStyle: TextStyle(
                 fontSize: 16,
                 color: Colors.teal,
               ))),
-          Image.asset("assets/images/pb.jpg"),
           Text("Alter: 21",
               style: GoogleFonts.poppins(
                   textStyle: TextStyle(

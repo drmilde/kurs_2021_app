@@ -59,7 +59,7 @@ class TillHScreen extends StatelessWidget {
             height: 10,
           ),
           Text(
-            "Studiengang:Digitale Medien",
+            "Studiengang: Digitale Medien",
             style: GoogleFonts.sulphurPoint(
               fontSize: 18,
             ),

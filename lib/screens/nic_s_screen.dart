@@ -11,23 +11,31 @@ class NicSScreen extends StatelessWidget {
       body: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          Text("Nic Schittenhelm",
-            style: TextStyle(
-            fontSize: 20,
-            ),
-          ),
           SizedBox(
             height: 20,
           ),
-          Text("Nic Schittenhelm",
-          style: GoogleFonts.poppins(
-            textStyle: TextStyle(
-              fontSize: 16,
-            )
-          )),
+          Text("Name: Nic Schittenhelm",
+              style: GoogleFonts.poppins(
+                  textStyle: TextStyle(
+                fontSize: 16,
+              ))),
+          Text("Alter: 21",
+              style: GoogleFonts.poppins(
+                  textStyle: TextStyle(
+                fontSize: 16,
+              ))),
+          Text("Studiengang: Digitale Medien",
+              style: GoogleFonts.poppins(
+                  textStyle: TextStyle(
+                fontSize: 16,
+              ))),
+          Text("Fachsemester: 6",
+              style: GoogleFonts.poppins(
+                  textStyle: TextStyle(
+                fontSize: 16,
+              ))),
         ],
       ),
     );
-
   }
 }

@@ -18,7 +18,7 @@ class KursScreen extends StatelessWidget {
           zeileKursteilnehmer("Prof Dr. habil. Jan-Torsten Milde", context,
               JanTorstenMScreen()),
           zeileKursteilnehmer("Unbekannt", context, UnbekanntScreen()),
-          zeileKursteilnehmer("Hüseyin", context, hueseyin_s_screen()),
+          zeileKursteilnehmer("Hüseyin", context, HueseyinSScreen()),
           zeileKursteilnehmer("Till Henkel", context, TillHScreen()),
           zeileKursteilnehmer("Nic Schittenhelm", context, NicSScreen()),
         ],

@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:kurs_2021_app/screens/jan_torsten_m_screen.dart';
+import 'package:kurs_2021_app/screens/unbekannt_screen.dart';
 
 class KursScreen extends StatelessWidget {
   @override
@@ -13,8 +14,7 @@ class KursScreen extends StatelessWidget {
         children: [
           zeileKursteilnehmer("Prof Dr. habil. Jan-Torsten Milde", context,
               JanTorstenMScreen()),
-          zeileKursteilnehmer("Sven", context, JanTorstenMScreen()),
-          zeileKursteilnehmer("Kerstin", context, JanTorstenMScreen()),
+          zeileKursteilnehmer("Unbekannt", context, UnbekanntScreen()),
         ],
       ),
     );

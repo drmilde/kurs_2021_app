@@ -11,6 +11,7 @@ class TillHScreen extends StatelessWidget {
       body: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
+          Image.asset("assets/images/pika.jpg"),
 
           Text(
             "Vorname: Till",

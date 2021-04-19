@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:google_fonts/google_fonts.dart';
 
 class hueseyin_s_screen extends StatelessWidget {
   @override
@@ -8,13 +9,27 @@ class hueseyin_s_screen extends StatelessWidget {
         title: Text("Hüseyin Sevim"),
       ),
       body: Column(
+        crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          Text("Hüseyin Sevim",
-            style: TextStyle(
+          Text("Name: Sevim",
+            style: GoogleFonts.ubuntuMono(
               fontSize: 18,
             ),
           ),
-          Text("Digitale Medien")
+          Text("Vorname: Sevim",
+            style: GoogleFonts.ubuntuMono(
+              fontSize: 18,
+            ),
+          ),
+          SizedBox(
+            height: 20,
+          ),
+          Text("Fachbereich: Angewandte Informatik",
+           style: GoogleFonts.lato(),
+          ),
+          Text("Studiengang: Digitale Medien",
+           style: GoogleFonts.lato(),
+          )
         ],
       ),
     );

@@ -20,6 +20,7 @@ class NicSScreen extends StatelessWidget {
                 fontSize: 16,
                 color: Colors.teal,
               ))),
+          Image.asset("assets/images/pb.jpg"),
           Text("Alter: 21",
               style: GoogleFonts.poppins(
                   textStyle: TextStyle(

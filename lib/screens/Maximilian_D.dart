@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
+import 'package:flutter/widgets.dart';
 
-class  extends StatelessWidget {
+class Maximilian_D extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -9,7 +10,6 @@ class  extends StatelessWidget {
 
     )
 );
-
 
   }
 }

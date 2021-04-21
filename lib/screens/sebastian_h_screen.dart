@@ -55,6 +55,12 @@ class SebastianHScreen extends StatelessWidget {
                   Container(height: 3, color: Colors.black45, margin: EdgeInsets.all(7.0)),
                   Text("Hobbies: Wandern, Skaten, Malen",
                       style: GoogleFonts.nunito(textStyle: Theme.of(context).textTheme.headline6)),
+                  Padding(
+                    padding: const EdgeInsets.only(top: 1000),
+                    child: Container(
+                      child: Text("Wohl eher gehört in den Müll"),
+                    ),
+                  ),
                 ],
               )
           ),

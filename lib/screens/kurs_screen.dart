@@ -5,6 +5,8 @@ import 'package:kurs_2021_app/screens/jan_torsten_m_screen.dart';
 import 'package:kurs_2021_app/screens/nic_s_screen.dart';
 import 'package:kurs_2021_app/screens/till_h_screen.dart';
 import 'package:kurs_2021_app/screens/unbekannt_screen.dart';
+import 'package:kurs_2021_app/screens/maximilian_r_screen.dart';
+import 'package:kurs_2021_app/screens/michael_h_screen.dart';
 
 class KursScreen extends StatelessWidget {
   @override

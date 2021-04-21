@@ -33,7 +33,7 @@ class SebastianHScreen extends StatelessWidget {
                       margin: const EdgeInsets.all(10.0),
                       child: Padding(
                         padding: const EdgeInsets.all(8.0),
-                        child: Image.asset('assets/images/me.jpg', scale: 5),
+                        child: Image.asset("assets/images/Oldbash.jpg"),
                       )),
                 ),
 

@@ -7,12 +7,20 @@ class PascalWScreen extends StatelessWidget {
       appBar: AppBar(
         title: Text("Pascal Witzel"),
       ),
-      body: Container(
-        child: Text("Guuuuude",
-          style: TextStyle(
-            fontSize: 50,
-            backgroundColor: Colors.black38,
-
+      body: SingleChildScrollView(
+        child: Center (
+          child: Padding(
+            padding: const EdgeInsets.all(15.0),
+           child: Column(
+              children: [
+               Text("Guuuuude",
+                  style: TextStyle(
+                    fontSize: 50,
+                    backgroundColor: Colors.black38,
+                  ),
+                ),
+              ]
+            ),
           ),
         ),
       ),

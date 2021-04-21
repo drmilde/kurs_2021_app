@@ -8,36 +8,85 @@ class MichaelHalbleibScreen extends StatelessWidget {
         title: Text("Michael Halbleib"),
       ),
       body: Column(
-        crossAxisAlignment: CrossAxisAlignment.start,
+        crossAxisAlignment: CrossAxisAlignment.center,
         children: [
+          Padding(padding: const EdgeInsets.all(20.0)),
           CircleAvatar(
             radius: 70,
             backgroundImage: AssetImage("assets/images/Huhn.jpg"),
           ),
-          Text(
-            "Michael Halbleib",
-            style: TextStyle(
-              fontSize: 15,
+          Row(children: [
+            Padding(
+              padding: const EdgeInsets.all(20.0),
             ),
-          ),
-          Text(
-            "Studiengang DM:",
-            style: TextStyle(
-              fontSize: 15,
+            Text(
+              "Name: ",
+              style: TextStyle(
+                fontSize: 15,
+                color: Colors.orange,
+              ),
             ),
-          ),
-          Text(
-            "Alter 26",
-            style: TextStyle(
-              fontSize: 15,
+            Text(
+              "Michael Halbleib",
+              style: TextStyle(
+                fontSize: 15,
+              ),
             ),
-          ),
-          Text(
-            "Hobbies: Zocken, Rad fahren usw",
-            style: TextStyle(
-              fontSize: 15,
+          ]),
+          Row(children: [
+            Padding(
+              padding: const EdgeInsets.all(20.0),
             ),
-          ),
+            Text(
+              "Studiengang: ",
+              style: TextStyle(
+                fontSize: 15,
+                color: Colors.orange,
+              ),
+            ),
+            Text(
+              "Digitale Medien",
+              style: TextStyle(
+                fontSize: 15,
+              ),
+            ),
+          ]),
+          Row(children: [
+            Padding(
+              padding: const EdgeInsets.all(20.0),
+            ),
+            Text(
+              "Alter: ",
+              style: TextStyle(
+                fontSize: 15,
+                color: Colors.orange,
+              ),
+            ),
+            Text(
+              "26 Jahre",
+              style: TextStyle(
+                fontSize: 15,
+              ),
+            ),
+          ]),
+          Row(children: [
+            Padding(
+              padding: const EdgeInsets.all(20.0),
+            ),
+            Text(
+              "Hobbies: ",
+              style: TextStyle(
+                fontSize: 15,
+                color: Colors.orange,
+              ),
+            ),
+            Text(
+              "Radfahren, Zocken, Kochen",
+              style: TextStyle(
+                fontSize: 15,
+              ),
+            ),
+          ]),
         ],
       ),
     );

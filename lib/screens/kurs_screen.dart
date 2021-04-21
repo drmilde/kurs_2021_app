@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:kurs_2021_app/screens/Maximilian_D.dart';
 import 'package:kurs_2021_app/screens/asmir_hodzic_screen.dart';
 import 'package:kurs_2021_app/screens/hueseyin_s_screen.dart';
 import 'package:kurs_2021_app/screens/jan_torsten_m_screen.dart';
@@ -15,7 +16,7 @@ import 'package:kurs_2021_app/screens/sven_n_screen.dart';
 import 'package:kurs_2021_app/screens/till_h_screen.dart';
 import 'package:kurs_2021_app/screens/uebung2_unbekannt_screen.dart';
 import 'package:kurs_2021_app/screens/unbekannt_screen.dart';
-import 'Maximilian_D.dart';
+
 
 
 class KursScreen extends StatelessWidget {

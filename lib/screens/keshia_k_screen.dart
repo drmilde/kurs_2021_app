@@ -15,9 +15,6 @@ class KeshiaKScreen extends StatelessWidget {
         crossAxisAlignment: CrossAxisAlignment.center,
         children: [
           Image.asset("assets/images/hi.png"),
-          SizedBox(
-            height: 10,
-          ),
           Text(
             "Ich bin's",
             style: TextStyle(
@@ -27,13 +24,31 @@ class KeshiaKScreen extends StatelessWidget {
             ),
           ),
           SizedBox(
-            height: 20,
+            height: 15,
           ),
           Text("Keshia",
               style: GoogleFonts.sacramento(
                   textStyle: TextStyle(
                 fontSize: 40,
               ))),
+          SizedBox(
+            height: 10,
+          ),
+          Text(
+            "Studiengang: DM",
+            style: TextStyle(
+              fontSize: 17,
+            ),
+          ),
+          SizedBox(
+            height: 5,
+          ),
+          Text(
+            "Alter: 254",
+            style: TextStyle(
+              fontSize: 17,
+            ),
+          ),
         ],
       ),
     );

@@ -10,7 +10,10 @@ class MichaelHalbleibScreen extends StatelessWidget {
       body: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          Image.asset("assets/images/Huhn.jpg"),
+          CircleAvatar(
+            radius: 70,
+            backgroundImage: AssetImage("assets/images/Huhn.jpg"),
+          ),
           Text(
             "Michael Halbleib",
             style: TextStyle(

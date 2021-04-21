@@ -10,6 +10,7 @@ import 'package:kurs_2021_app/screens/nic_s_screen.dart';
 import 'package:kurs_2021_app/screens/pascal_w_screen.dart';
 import 'package:kurs_2021_app/screens/sebastian_h_screen.dart';
 import 'package:kurs_2021_app/screens/till_h_screen.dart';
+import 'package:kurs_2021_app/screens/uebung2_unbekannt_screen.dart';
 import 'package:kurs_2021_app/screens/unbekannt_screen.dart';
 
 
@@ -20,24 +21,27 @@ class KursScreen extends StatelessWidget {
       appBar: AppBar(
         title: Text("Kursteilnehmer"),
       ),
-      body: Column(
-        crossAxisAlignment: CrossAxisAlignment.start,
-        children: [
-          zeileKursteilnehmer("Prof Dr. habil. Jan-Torsten Milde", context,
-              JanTorstenMScreen()),
-          zeileKursteilnehmer("Unbekannt", context, UnbekanntScreen()),
-          zeileKursteilnehmer("Hüseyin", context, HueseyinSScreen()),
-          zeileKursteilnehmer("Till Henkel", context, TillHScreen()),
-          zeileKursteilnehmer("Asmir Hodzic", context, AsmirHScreen()),
-          zeileKursteilnehmer("Nic Schittenhelm", context, NicSScreen()),
-          zeileKursteilnehmer("Michael Halbleib", context, MichaelHalbleibScreen()),
-          zeileKursteilnehmer("Pascal Witzel", context, PascalWScreen()),
-          zeileKursteilnehmer("Sebastian Heil", context, SebastianHScreen()),
-          zeileKursteilnehmer("Jason Stolze", context, JasonSScreen()),
-          zeileKursteilnehmer("Maximlian R", context, MaximilianRScreen()),
-          zeileKursteilnehmer("Kerstin Geis", context, KerstinGScreen()),
+      body: SingleChildScrollView(
+        child: Column(
+          crossAxisAlignment: CrossAxisAlignment.start,
+          children: [
+            zeileKursteilnehmer("Prof Dr. habil. Jan-Torsten Milde", context,
+                JanTorstenMScreen()),
+            zeileKursteilnehmer("Unbekannt", context, UnbekanntScreen()),
+            zeileKursteilnehmer("Unbekannt2", context, Uebung2UnbekanntScreen()),
+            zeileKursteilnehmer("Hüseyin", context, HueseyinSScreen()),
+            zeileKursteilnehmer("Till Henkel", context, TillHScreen()),
+            zeileKursteilnehmer("Asmir Hodzic", context, AsmirHScreen()),
+            zeileKursteilnehmer("Nic Schittenhelm", context, NicSScreen()),
+            zeileKursteilnehmer("Michael Halbleib", context, MichaelHalbleibScreen()),
+            zeileKursteilnehmer("Pascal Witzel", context, PascalWScreen()),
+            zeileKursteilnehmer("Sebastian Heil", context, SebastianHScreen()),
+            zeileKursteilnehmer("Jason Stolze", context, JasonSScreen()),
+            zeileKursteilnehmer("Maximlian R", context, MaximilianRScreen()),
+            zeileKursteilnehmer("Kerstin Geis", context, KerstinGScreen()),
 
-        ],
+          ]
+        ),
       ),
     );
   }

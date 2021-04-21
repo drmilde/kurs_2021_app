@@ -10,13 +10,11 @@ class PascalWScreen extends StatelessWidget {
       body: Container(
         child: Text("Guuuuude",
           style: TextStyle(
-            fontSize: 15,
+            fontSize: 50,
             backgroundColor: Colors.black38,
 
+          ),
         ),
-        ),
-
-
       ),
     );
 

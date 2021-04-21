@@ -3,6 +3,7 @@ import 'package:kurs_2021_app/screens/asmir_hodzic_screen.dart';
 import 'package:kurs_2021_app/screens/hueseyin_s_screen.dart';
 import 'package:kurs_2021_app/screens/jan_torsten_m_screen.dart';
 import 'package:kurs_2021_app/screens/nic_s_screen.dart';
+import 'package:kurs_2021_app/screens/pascal_w_screen.dart';
 import 'package:kurs_2021_app/screens/till_h_screen.dart';
 import 'package:kurs_2021_app/screens/unbekannt_screen.dart';
 
@@ -23,6 +24,7 @@ class KursScreen extends StatelessWidget {
           zeileKursteilnehmer("Till Henkel", context, TillHScreen()),
           zeileKursteilnehmer("Asmir Hodzic", context, AsmirHScreen()),
           zeileKursteilnehmer("Nic Schittenhelm", context, NicSScreen()),
+          zeileKursteilnehmer("Pascal Witzel", context, PascalWScreen()),
         ],
       ),
     );

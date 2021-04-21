@@ -5,6 +5,7 @@ import 'package:kurs_2021_app/screens/jan_torsten_m_screen.dart';
 import 'package:kurs_2021_app/screens/nic_s_screen.dart';
 import 'package:kurs_2021_app/screens/till_h_screen.dart';
 import 'package:kurs_2021_app/screens/unbekannt_screen.dart';
+import 'package:kurs_2021_app/screens/sebastian_h_screen.dart';
 
 class KursScreen extends StatelessWidget {
   @override
@@ -23,6 +24,7 @@ class KursScreen extends StatelessWidget {
           zeileKursteilnehmer("Till Henkel", context, TillHScreen()),
           zeileKursteilnehmer("Asmir Hodzic", context, AsmirHScreen()),
           zeileKursteilnehmer("Nic Schittenhelm", context, NicSScreen()),
+          zeileKursteilnehmer("Sebastian Heil", context, SebastianHScreen()),
         ],
       ),
     );

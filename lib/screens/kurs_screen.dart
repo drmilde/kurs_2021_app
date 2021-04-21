@@ -12,6 +12,7 @@ import 'package:kurs_2021_app/screens/sebastian_h_screen.dart';
 import 'package:kurs_2021_app/screens/till_h_screen.dart';
 import 'package:kurs_2021_app/screens/uebung2_unbekannt_screen.dart';
 import 'package:kurs_2021_app/screens/unbekannt_screen.dart';
+import 'Maximilian_D.dart';
 
 
 class KursScreen extends StatelessWidget {
@@ -39,7 +40,7 @@ class KursScreen extends StatelessWidget {
             zeileKursteilnehmer("Jason Stolze", context, JasonSScreen()),
             zeileKursteilnehmer("Maximlian R", context, MaximilianRScreen()),
             zeileKursteilnehmer("Kerstin Geis", context, KerstinGScreen()),
-
+            zeileKursteilnehmer("Maximilian Desch", context, MaximilianDScreen()),
           ]
         ),
       ),

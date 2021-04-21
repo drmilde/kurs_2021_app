@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:kurs_2021_app/screens/Maximilian_D.dart';
+import 'package:kurs_2021_app/screens/maximilian_d_screen.dart';
 import 'package:kurs_2021_app/screens/asmir_hodzic_screen.dart';
 import 'package:kurs_2021_app/screens/hueseyin_s_screen.dart';
 import 'package:kurs_2021_app/screens/jan_torsten_m_screen.dart';

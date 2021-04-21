@@ -10,6 +10,7 @@ class MichaelHalbleibScreen extends StatelessWidget {
       body: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
+          Image.asset("assets/images/Huhn.jpg"),
           Text(
             "Michael Halbleib",
             style: TextStyle(
@@ -24,6 +25,12 @@ class MichaelHalbleibScreen extends StatelessWidget {
           ),
           Text(
             "Alter 26",
+            style: TextStyle(
+              fontSize: 15,
+            ),
+          ),
+          Text(
+            "Hobbies: Zocken, Rad fahren usw",
             style: TextStyle(
               fontSize: 15,
             ),

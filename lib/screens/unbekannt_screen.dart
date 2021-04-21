@@ -13,13 +13,13 @@ class UnbekanntScreen extends StatelessWidget {
         children: [
           Image.asset("assets/images/wolowitz.jpg"),
           Text(
-            "Name",
+            "Wolowitz",
             style: TextStyle(
               fontSize: 18,
             ),
           ),
           Text(
-            "Vorname",
+            "Howard",
             style: TextStyle(
               fontSize: 18,
             ),

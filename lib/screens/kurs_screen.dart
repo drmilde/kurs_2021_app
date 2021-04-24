@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:kurs_2021_app/screens/carolin_s_screen.dart';
 import 'package:kurs_2021_app/screens/domenic_r_screen.dart';
 import 'package:kurs_2021_app/screens/maximilian_d_screen.dart';
 import 'package:kurs_2021_app/screens/asmir_hodzic_screen.dart';
@@ -50,6 +51,7 @@ class KursScreen extends StatelessWidget {
             zeileKursteilnehmer("Keshia Kullmann", context, KeshiaKScreen()),
             zeileKursteilnehmer("Katharina Schubert", context, KatharinaSScreen()),
             zeileKursteilnehmer("Domenic Rosenbaum", context, DomenicRScreen()),
+            zeileKursteilnehmer("Carolin Steinborn", context, CarolinSScreen()),
           ]
         ),
       ),

@@ -10,7 +10,7 @@ class CarolinSScreen extends StatelessWidget {
       body: Column(
         crossAxisAlignment: CrossAxisAlignment.center,
         children: [
-          Image.asset("assets/images/vogel.jpg"),
+          Image.asset("assets\images\vogel.jpg"),
           Text(
             "Carolin",
             style: TextStyle(

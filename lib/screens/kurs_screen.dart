@@ -10,6 +10,7 @@ import 'package:kurs_2021_app/screens/katharina_s_screen.dart';
 import 'package:kurs_2021_app/screens/kerstin_g_screen.dart';
 import 'package:kurs_2021_app/screens/keshia_k_screen.dart';
 import 'package:kurs_2021_app/screens/maximilian_r_screen.dart';
+import 'package:kurs_2021_app/screens/merle_l_screen.dart';
 import 'package:kurs_2021_app/screens/michael_h_screen.dart';
 import 'package:kurs_2021_app/screens/nic_s_screen.dart';
 import 'package:kurs_2021_app/screens/pascal_w_screen.dart';
@@ -52,6 +53,7 @@ class KursScreen extends StatelessWidget {
             zeileKursteilnehmer("Katharina Schubert", context, KatharinaSScreen()),
             zeileKursteilnehmer("Domenic Rosenbaum", context, DomenicRScreen()),
             zeileKursteilnehmer("Carolin Steinborn", context, CarolinSScreen()),
+            zeileKursteilnehmer("Merle Lotz", context, MerleLScreen()),
           ]
         ),
       ),

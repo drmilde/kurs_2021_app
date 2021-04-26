@@ -1,34 +1,49 @@
-import 'dart:ui';
 import 'package:flutter/material.dart';
+import 'package:flutter/widgets.dart';
 
 class CarolinSScreen extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Center(child: Text("Steckbrief")),
       ),
       body: Column(
         crossAxisAlignment: CrossAxisAlignment.center,
         children: [
-          new Image.asset(
-              'images/bird.jpg',
-            width: 600.0,
-            height: 240.0,
-            fit: BoxFit.cover,
+          Image.asset("assets/images/bird.jpg"),
+          Row(
+            children: [
+              Text('Name: ',
+                style: TextStyle(
+                  fontSize: 18,
+                  color: Colors.green,
+                  fontWeight: FontWeight.bold,
+                ),
+              ),
+              Text('Carolin'),
+            ],
           ),
-          Text(
-            "Carolin",
-            style: TextStyle(
-              fontSize: 18,
-
-            ),
+          Row(
+            children: [
+              Text('Fachbereich: ',
+                style: TextStyle(
+                  color: Colors.green,
+                  fontSize: 18,
+                ),
+              ),
+              Text('Digitale Medien'),
+            ],
           ),
-          Text(
-            "Digitale Medien",
-            style: TextStyle(
-              fontSize: 18,
-            ),
+          Row(
+            children: [
+              Text('Hochschule: ',
+                style: TextStyle(
+                  color: Colors.green,
+                  fontSize: 18,
+                ),
+              ),
+              Text('HS Fulda'),
+            ],
           ),
         ],
       ),

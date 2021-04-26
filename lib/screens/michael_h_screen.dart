@@ -10,9 +10,11 @@ class MichaelHalbleibScreen extends StatelessWidget {
       body: Column(
         crossAxisAlignment: CrossAxisAlignment.center,
         children: [
-          Padding(padding: const EdgeInsets.all(20.0)),
+          Padding(
+              padding: const EdgeInsets.all(20.0)
+          ),
           CircleAvatar(
-            radius: 70,
+            radius: 180,
             backgroundImage: AssetImage("assets/images/Huhn.jpg"),
           ),
           Row(children: [

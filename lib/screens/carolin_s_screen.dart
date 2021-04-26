@@ -1,3 +1,4 @@
+import 'dart:ui';
 import 'package:flutter/material.dart';
 
 class CarolinSScreen extends StatelessWidget {
@@ -10,15 +11,21 @@ class CarolinSScreen extends StatelessWidget {
       body: Column(
         crossAxisAlignment: CrossAxisAlignment.center,
         children: [
-          Image.asset("assets\images\vogel.jpg"),
+          new Image.asset(
+              'images/bird.jpg',
+            width: 600.0,
+            height: 240.0,
+            fit: BoxFit.cover,
+          ),
           Text(
             "Carolin",
             style: TextStyle(
               fontSize: 18,
+
             ),
           ),
           Text(
-            "Hochschule Fulda",
+            "Digitale Medien",
             style: TextStyle(
               fontSize: 18,
             ),

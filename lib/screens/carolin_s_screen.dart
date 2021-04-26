@@ -1,11 +1,11 @@
 import 'package:flutter/material.dart';
-import 'package:flutter/widgets.dart';
 
 class CarolinSScreen extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
+        title: Center(child: Text("Carolin Steinborn")),
       ),
       body: Column(
         crossAxisAlignment: CrossAxisAlignment.center,

@@ -21,6 +21,8 @@ import 'package:kurs_2021_app/screens/till_h_screen.dart';
 import 'package:kurs_2021_app/screens/uebung2_unbekannt_screen.dart';
 import 'package:kurs_2021_app/screens/unbekannt_screen.dart';
 
+import 'jackson_screen.dart';
+
 
 
 class KursScreen extends StatelessWidget {
@@ -44,6 +46,7 @@ class KursScreen extends StatelessWidget {
             zeileKursteilnehmer("Nic Schittenhelm", context, NicSScreen()),
             zeileKursteilnehmer("Michael Halbleib", context, MichaelHalbleibScreen()),
             zeileKursteilnehmer("Pascal Witzel", context, PascalWScreen()),
+            zeileKursteilnehmer("Jackson Panzo", context, JacksonScreen()),
             zeileKursteilnehmer("Sebastian Heil", context, SebastianHScreen()),
             zeileKursteilnehmer("Jason Stolze", context, JasonSScreen()),
             zeileKursteilnehmer("Maximlian R", context, MaximilianRScreen()),
